@@ -21,12 +21,15 @@ maintaining and deploying github pages sites. If interested, then simply watch t
 
 ## Installation
 
+**PLEASE DO NOT INSTALL OR USE AT THE MOMENT.**
+
 @TODO Keith
 Dependencies
 Config
 
 
 ## Usage
+**PLEASE DO NOT INSTALL OR USE AT THE MOMENT.**
 
 @TODO Keith
 
@@ -68,7 +71,9 @@ Please follow the PSR-2 coding style guidelines and PSR-4 directory structure
 guidelines.
 
 #### Bash
-Please follow this [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
+Please follow this
+<a href="https://google.github.io/styleguide/shell.xml" target="_blank">Shell Style Guide</a> *opens in new window*
+
 
 #### Ruby
-Please follow this [Ruby Style Guide](https://github.com/styleguide/ruby)
+Please follow this <a href="https://github.com/styleguide/ruby" target="_blank">Ruby Style Guide</a> *opens in new window*

@@ -15,11 +15,7 @@ version: "0.2"
 config_class_file: Architect.rb
 config_class: Architect
 script: bootstrap.sh
-auto_update: true # boolean, Do not chnage this.
-check_update_location: ""
-update_class_file: "Update.rb"
-update_class: "Update"
-latest_version: "0.2"
+auto_update: true # boolean
 # End of Package settings.
 
 # Vagrant settings - should not be re-configured for general use.
@@ -43,38 +39,3 @@ git_user_email: "mifsud.k@gmail.com"
 git_push_default: simple # simple or matching
 
 # End of User settings.
-
-# ---
-ip: "192.168.10.77"
-memory: 2048
-cpus: 1
-name: github_pages
-provider: virtualbox
-
-authorize: ~/.ssh/id_rsa.pub
-
-keys:
-    - ~/.ssh/id_rsa
-
-folders:
-    - map: "C:/Users/Keith/Code/swell-framework/code"
-      to: "/home/vagrant/swell-framework/code"
-
-sites:
-    - map: swell-framework.dev
-      to: "/home/vagrant/swell-framework/code/public"
-
-databases:
-    - swell_dev
-
-# blackfire:
-#     - id: foo
-#       token: bar
-#       client-id: foo
-#       client-token: bar
-
-ports:
-     - send: 9200
-       to: 9200
-
-
