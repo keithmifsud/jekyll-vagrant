@@ -10,6 +10,7 @@
 ##
 
 require 'yaml'
+require 'open-uri'
 
 class Update
 
