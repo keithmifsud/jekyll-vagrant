@@ -26,20 +26,6 @@ packageScriptsPath = "#{packageDir}/" + "scripts"
 configFile = "#{configFilePath}/" + "#{parentPackage}.yaml"
 settings = YAML::load(File.read("#{configFile}"))
 
-# Check for updates if so set
-if ( settings["auto_update"] )
-
-    updateClassFile = "#{packageDir}/" + settings["update_class_file"]
-    require File.expand_path("#{updateClassFile}")
-
-    updateClass = Object.const_get(settings["update_class"])
-
-    currentVersion = settings["version"]
-    checkUpdateFrom = settings["check_update_location"]
-
-    updateclass.perform_if_available(currentVersion, checkUpdateFrom)
-end
-
 # Set the api version from settings
 vagrantApiVersion = settings["vagrant_api_version"] ||= "2"
 VAGRANTFILE_API_VERSION = VAGRANTFILE_API_VERSION ||= vagrantApiVersion

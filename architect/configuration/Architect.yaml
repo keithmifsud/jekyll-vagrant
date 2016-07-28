@@ -15,8 +15,6 @@ version: "0.2"
 config_class_file: Architect.rb
 config_class: Architect
 script: bootstrap.sh
-auto_update: true # boolean
-update_dir: "Update"
 # End of Package settings.
 
 # Vagrant settings - should not be re-configured for general use.
