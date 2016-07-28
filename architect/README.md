@@ -72,8 +72,8 @@ guidelines.
 
 #### Bash
 Please follow this
-<a href="https://google.github.io/styleguide/shell.xml" target="_blank">Shell Style Guide</a> *opens in new window*
+<a href="https://google.github.io/styleguide/shell.xml" target="_blank">Shell Style Guide</a>
 
 
 #### Ruby
-Please follow this <a href="https://github.com/styleguide/ruby" target="_blank">Ruby Style Guide</a> *opens in new window*
+Please follow this <a href="https://github.com/styleguide/ruby" target="_blank">Ruby Style Guide</a>
